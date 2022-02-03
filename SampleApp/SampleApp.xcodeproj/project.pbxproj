@@ -21,8 +21,8 @@
 		6174B87927AC0E8700861725 /* SampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppApp.swift; sourceTree = "<group>"; };
 		6174B87A27AC0E8700861725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6174B87B27AC0E8800861725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6174B88027AC0E8800861725 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6174B88627AC0E8800861725 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6174B88027AC0E8800861725 /* Nonaco Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nonaco Logo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6174B88627AC0E8800861725 /* Nonaco Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nonaco Logo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6174B88827AC0E8800861725 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		6174B89827AC0F0400861725 /* NonacoLogo */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NonacoLogo; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +71,8 @@
 		6174B88127AC0E8800861725 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6174B88027AC0E8800861725 /* SampleApp.app */,
-				6174B88627AC0E8800861725 /* SampleApp.app */,
+				6174B88027AC0E8800861725 /* Nonaco Logo.app */,
+				6174B88627AC0E8800861725 /* Nonaco Logo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 				6174B89A27AC0F3300861725 /* NonacoLogo */,
 			);
 			productName = "SampleApp (iOS)";
-			productReference = 6174B88027AC0E8800861725 /* SampleApp.app */;
+			productReference = 6174B88027AC0E8800861725 /* Nonaco Logo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6174B88527AC0E8800861725 /* SampleApp (macOS) */ = {
@@ -140,7 +140,7 @@
 				6174B89C27AC0F3900861725 /* NonacoLogo */,
 			);
 			productName = "SampleApp (macOS)";
-			productReference = 6174B88627AC0E8800861725 /* SampleApp.app */;
+			productReference = 6174B88627AC0E8800861725 /* Nonaco Logo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -275,6 +275,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Nonaco Logo";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -327,6 +328,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Nonaco Logo";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -354,7 +356,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
-				PRODUCT_NAME = SampleApp;
+				PRODUCT_NAME = "Nonaco Logo";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +386,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
-				PRODUCT_NAME = SampleApp;
+				PRODUCT_NAME = "Nonaco Logo";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -414,7 +416,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
-				PRODUCT_NAME = SampleApp;
+				PRODUCT_NAME = "Nonaco Logo";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,7 +444,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
-				PRODUCT_NAME = SampleApp;
+				PRODUCT_NAME = "Nonaco Logo";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
