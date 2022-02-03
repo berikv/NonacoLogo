@@ -18,15 +18,28 @@ public struct NonacoLogo: View {
     public init() {}
 
     func wheel(_ font: CTFont) -> some View {
-        Wheel(angle: angle)
+        var wheel = Wheel(angle: angle)
             .contentShape(Rectangle())
             .frame(width: font.capHeight, height: font.capHeight)
+
+#if os(tvOS)
+        return wheel
+#elseif os(macOS)
+        return wheel
             .offset(y: font.capCenterLineCenterDistance)
             .onTapGesture {
                 withAnimation(.easeInOut(duration: 3).delay(0.25)) {
                     angle += .radians(.pi * 5)
                 }
             }
+#else
+        return wheel
+            .onTapGesture {
+                withAnimation(.easeInOut(duration: 3).delay(0.25)) {
+                    angle += .radians(.pi * 5)
+                }
+            }
+#endif
     }
 
     public var body: some View {
