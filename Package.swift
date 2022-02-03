@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "NonacoLogo",
-            dependencies: []),
+            dependencies: [],
+            resources: [.process("bell.wav")]),
         .testTarget(
             name: "NonacoLogoTests",
             dependencies: ["NonacoLogo"]),

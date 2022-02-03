@@ -3,7 +3,7 @@ import AVFoundation
 
 final class AudioPlayer: ObservableObject {
     private let player = try! AVAudioPlayer(
-        contentsOf: Bundle.main.url(
+        contentsOf: Bundle.module.url(
             forResource: "bell", withExtension: "wav")!)
 
     func play() {
@@ -14,6 +14,8 @@ final class AudioPlayer: ObservableObject {
 public struct NonacoLogo: View {
     @StateObject var player = AudioPlayer()
     @State var angle: Angle = .radians(0)
+
+    public init() {}
 
     func wheel(_ font: CTFont) -> some View {
         Wheel(angle: angle)
