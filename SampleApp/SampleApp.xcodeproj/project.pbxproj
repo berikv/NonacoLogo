@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6158431427AC30EB006400D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6158431327AC30EB006400D5 /* Assets.xcassets */; };
+		6158431727AC30EB006400D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6158431627AC30EB006400D5 /* Preview Assets.xcassets */; };
 		6174B88927AC0E8800861725 /* SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174B87927AC0E8700861725 /* SampleAppApp.swift */; };
 		6174B88A27AC0E8800861725 /* SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174B87927AC0E8700861725 /* SampleAppApp.swift */; };
 		6174B88B27AC0E8800861725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174B87A27AC0E8700861725 /* ContentView.swift */; };
@@ -15,9 +17,28 @@
 		6174B88E27AC0E8800861725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6174B87B27AC0E8800861725 /* Assets.xcassets */; };
 		6174B89B27AC0F3300861725 /* NonacoLogo in Frameworks */ = {isa = PBXBuildFile; productRef = 6174B89A27AC0F3300861725 /* NonacoLogo */; };
 		6174B89D27AC0F3900861725 /* NonacoLogo in Frameworks */ = {isa = PBXBuildFile; productRef = 6174B89C27AC0F3900861725 /* NonacoLogo */; };
+		6180E93A27AD596900C79F0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174B87A27AC0E8700861725 /* ContentView.swift */; };
+		6180E93B27AD59AF00C79F0A /* SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174B87927AC0E8700861725 /* SampleAppApp.swift */; };
+		61B6738827AC318E003E033C /* NonacoLogo in Frameworks */ = {isa = PBXBuildFile; productRef = 61B6738727AC318E003E033C /* NonacoLogo */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6187AF5427AC1AF7003D4473 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6158430D27AC30EA006400D5 /* Nonaco Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nonaco Logo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6158431327AC30EB006400D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6158431627AC30EB006400D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6174B87927AC0E8700861725 /* SampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppApp.swift; sourceTree = "<group>"; };
 		6174B87A27AC0E8700861725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6174B87B27AC0E8800861725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,9 +46,18 @@
 		6174B88627AC0E8800861725 /* Nonaco Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nonaco Logo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6174B88827AC0E8800861725 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		6174B89827AC0F0400861725 /* NonacoLogo */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NonacoLogo; path = ..; sourceTree = "<group>"; };
+		6187AF2E27AC1AF6003D4473 /* Nonaco Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nonaco Logo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6158430A27AC30EA006400D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6738827AC318E003E033C /* NonacoLogo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6174B87D27AC0E8800861725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,12 +77,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6158430E27AC30EA006400D5 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6158431327AC30EB006400D5 /* Assets.xcassets */,
+				6158431527AC30EB006400D5 /* Preview Content */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		6158431527AC30EB006400D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6158431627AC30EB006400D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		6174B87327AC0E8700861725 = {
 			isa = PBXGroup;
 			children = (
 				6174B89727AC0F0400861725 /* Packages */,
 				6174B87827AC0E8700861725 /* Shared */,
 				6174B88727AC0E8800861725 /* macOS */,
+				6158430E27AC30EA006400D5 /* tvOS */,
 				6174B88127AC0E8800861725 /* Products */,
 				6174B89927AC0F3300861725 /* Frameworks */,
 			);
@@ -73,6 +121,8 @@
 			children = (
 				6174B88027AC0E8800861725 /* Nonaco Logo.app */,
 				6174B88627AC0E8800861725 /* Nonaco Logo.app */,
+				6187AF2E27AC1AF6003D4473 /* Nonaco Logo.app */,
+				6158430D27AC30EA006400D5 /* Nonaco Logo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +153,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6158430C27AC30EA006400D5 /* SampleApp (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6158431A27AC30EB006400D5 /* Build configuration list for PBXNativeTarget "SampleApp (tvOS)" */;
+			buildPhases = (
+				6158430927AC30EA006400D5 /* Sources */,
+				6158430A27AC30EA006400D5 /* Frameworks */,
+				6158430B27AC30EA006400D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleApp (tvOS)";
+			packageProductDependencies = (
+				61B6738727AC318E003E033C /* NonacoLogo */,
+			);
+			productName = "SampleApp (tvOS)";
+			productReference = 6158430D27AC30EA006400D5 /* Nonaco Logo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6174B87F27AC0E8800861725 /* SampleApp (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6174B89127AC0E8800861725 /* Build configuration list for PBXNativeTarget "SampleApp (iOS)" */;
@@ -143,6 +213,22 @@
 			productReference = 6174B88627AC0E8800861725 /* Nonaco Logo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6187AF2D27AC1AF6003D4473 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6187AF5C27AC1AF7003D4473 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				6187AF2C27AC1AF6003D4473 /* Resources */,
+				6187AF5427AC1AF7003D4473 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			productName = SampleApp;
+			productReference = 6187AF2E27AC1AF6003D4473 /* Nonaco Logo.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,10 +239,16 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					6158430C27AC30EA006400D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					6174B87F27AC0E8800861725 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					6174B88527AC0E8800861725 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6187AF2D27AC1AF6003D4473 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -176,11 +268,22 @@
 			targets = (
 				6174B87F27AC0E8800861725 /* SampleApp (iOS) */,
 				6174B88527AC0E8800861725 /* SampleApp (macOS) */,
+				6187AF2D27AC1AF6003D4473 /* SampleApp */,
+				6158430C27AC30EA006400D5 /* SampleApp (tvOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6158430B27AC30EA006400D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6158431727AC30EB006400D5 /* Preview Assets.xcassets in Resources */,
+				6158431427AC30EB006400D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6174B87E27AC0E8800861725 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,9 +300,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6187AF2C27AC1AF6003D4473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6158430927AC30EA006400D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6180E93A27AD596900C79F0A /* ContentView.swift in Sources */,
+				6180E93B27AD59AF00C79F0A /* SampleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6174B87C27AC0E8800861725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +340,61 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6158431827AC30EB006400D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = B56488KY8L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		6158431927AC30EB006400D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = B56488KY8L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6174B88F27AC0E8800861725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,9 +625,45 @@
 			};
 			name = Release;
 		};
+		6187AF5227AC1AF7003D4473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B56488KY8L;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6187AF5327AC1AF7003D4473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B56488KY8L;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nu.visschers.SampleApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6158431A27AC30EB006400D5 /* Build configuration list for PBXNativeTarget "SampleApp (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6158431827AC30EB006400D5 /* Debug */,
+				6158431927AC30EB006400D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6174B87727AC0E8700861725 /* Build configuration list for PBXProject "SampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -481,6 +691,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6187AF5C27AC1AF7003D4473 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6187AF5227AC1AF7003D4473 /* Debug */,
+				6187AF5327AC1AF7003D4473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -489,6 +708,10 @@
 			productName = NonacoLogo;
 		};
 		6174B89C27AC0F3900861725 /* NonacoLogo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NonacoLogo;
+		};
+		61B6738727AC318E003E033C /* NonacoLogo */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NonacoLogo;
 		};
