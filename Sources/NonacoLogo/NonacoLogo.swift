@@ -51,7 +51,7 @@ public struct NonacoLogo: View {
 
             let font = CTFont("Helvetica-Bold" as CFString, size: fontSize)
 
-            HStack(alignment: .top, spacing: 0) {
+            HStack(spacing: 0) {
                 Text("N")
 
                 Text("O")
@@ -70,7 +70,7 @@ public struct NonacoLogo: View {
             .font(Font(font))
             .foregroundColor(.nonacoOrange)
             .fixedSize()
-//            .background(.white)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             .onAppear {
                 player.play()
 
@@ -81,7 +81,6 @@ public struct NonacoLogo: View {
                 withAnimation(.easeOut(duration: 8).delay(3)) {
                     angle += .radians(.pi * 16)
                 }
-
             }
         }
     }
