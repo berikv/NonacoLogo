@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "61A62E9927AD720000140A59"
-               BuildableName = "SampleApp (iOS).app"
+               BuildableName = "Nonaco Logo.app"
                BlueprintName = "SampleApp (iOS)"
                ReferencedContainer = "container:SampleApp.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "61A62E9927AD720000140A59"
-            BuildableName = "SampleApp (iOS).app"
+            BuildableName = "Nonaco Logo.app"
             BlueprintName = "SampleApp (iOS)"
             ReferencedContainer = "container:SampleApp.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "61A62E9927AD720000140A59"
-            BuildableName = "SampleApp (iOS).app"
+            BuildableName = "Nonaco Logo.app"
             BlueprintName = "SampleApp (iOS)"
             ReferencedContainer = "container:SampleApp.xcodeproj">
          </BuildableReference>
